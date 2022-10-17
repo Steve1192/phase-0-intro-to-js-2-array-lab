@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-10-17T01:56:47.100Z",
+    "end": "2022-10-17T01:56:47.360Z",
+    "duration": 260
+  },
+  "tests": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis', 'Garfield', 'Ralph' ]",
+        "showDiff": true,
+        "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
+        "expected": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n  \"Ralph\"\n]",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis', 'Garfield', 'Ralph' ]\n    at Context.<anonymous> (test/indexTest.js:19:38)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
